@@ -92,3 +92,32 @@ export const videos = [
     ],
   },
 ];
+
+export const categories = {
+  mech: [
+    {
+      img: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+      title: "dfsfe",
+      href: "0",
+    },
+    {
+      img: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+      title: "Mechanical",
+      href: "1",
+    },
+    {
+      img: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+      title: "Mechanical",
+      href: "2",
+    },
+  ],
+  phy: [
+    {
+      img: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+      title: "Mechanical",
+      href: "0",
+    },
+  ],
+};
+
+export const titles = { mech: "Mechanical", phy: "Physics" };
