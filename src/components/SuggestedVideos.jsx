@@ -5,7 +5,7 @@ export default function SuggestedVideos({ videoList }) {
       <div className="flex flex-wrap w-full ">
         {videoList.map((video) => (
           <div className="w-full p-[40px] md:p-1 md:p-2 rounded-lg">
-            <a href="#!" className="relative ">
+            <a href={`${video.href}`} className="relative ">
               <img
                 className="rounded-lg h-[180px] md:h-[150px] cover w-full"
                 src={`http://drive.google.com/uc?export=view&id=${video.url}`}

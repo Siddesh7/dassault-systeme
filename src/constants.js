@@ -135,19 +135,23 @@ export const categoriesVideo = {
         {
           url: "1RsgucUrkvUK4Q1gGAyHVzISB-9SHAwqV",
           title: "High pressure pneumatic machine vice",
+          href: "1",
         },
         {
           url: "1IFqx0XdctEHDpbMXN7BzLbCv6j2G1rwM",
           title: "Pneumatic solenoid operated grinding machine",
+          href: "2",
         },
         {
           url: "1nMsBDFF4u_Pu5IWuhEvSgY_AVdBw0Zdb",
           title:
             "Auto indexing gear cutting attachment for pneumatic shaping machine",
+          href: "3",
         },
         {
           url: "1_KO2Zu7ZwC1R9RFhLiJ0gFWFH0t6mxzt",
           title: "Hydraulic pipe bending machine mechanical project",
+          href: "4",
         },
       ],
     },
@@ -162,19 +166,23 @@ export const categoriesVideo = {
         {
           url: "1IFqx0XdctEHDpbMXN7BzLbCv6j2G1rwM",
           title: "Pneumatic solenoid operated grinding machine",
+          href: "2",
         },
         {
           url: "1nMsBDFF4u_Pu5IWuhEvSgY_AVdBw0Zdb",
           title:
             "Auto indexing gear cutting attachment for pneumatic shaping machine",
+          href: "3",
         },
         {
           url: "1_KO2Zu7ZwC1R9RFhLiJ0gFWFH0t6mxzt",
           title: "Hydraulic pipe bending machine mechanical project",
+          href: "4",
         },
         {
           url: "1_4yoQXCv0NTLcb2qstq_PUz5I02dsxHu",
           title: "Project on cold chamber die casting machine",
+          href: "5",
         },
       ],
     },
@@ -190,18 +198,22 @@ export const categoriesVideo = {
           url: "1nMsBDFF4u_Pu5IWuhEvSgY_AVdBw0Zdb",
           title:
             "Auto indexing gear cutting attachment for pneumatic shaping machine",
+          href: "3",
         },
         {
           url: "1_KO2Zu7ZwC1R9RFhLiJ0gFWFH0t6mxzt",
           title: "Hydraulic pipe bending machine mechanical project",
+          href: "4",
         },
         {
           url: "1_4yoQXCv0NTLcb2qstq_PUz5I02dsxHu",
           title: "Project on cold chamber die casting machine",
+          href: "5",
         },
         {
           url: "1lH5_1kIUftS4sRPg4vcJ-xvmU6Vw_UdG",
           title: "CNC pneumatic auto feed punching machine",
+          href: "6",
         },
       ],
     },
@@ -215,16 +227,19 @@ export const categoriesVideo = {
         "This project intends to use pneumatic shaper for high production of automatic gear cutting with auto indexing work piece",
       suggested: [
         {
+          url: "1_KO2Zu7ZwC1R9RFhLiJ0gFWFH0t6mxzt",
+          title: "Hydraulic pipe bending machine mechanical project",
+          href: "4",
+        },
+        {
           url: "1_4yoQXCv0NTLcb2qstq_PUz5I02dsxHu",
           title: "Project on cold chamber die casting machine",
+          href: "5",
         },
         {
           url: "1lH5_1kIUftS4sRPg4vcJ-xvmU6Vw_UdG",
           title: "CNC pneumatic auto feed punching machine",
-        },
-        {
-          url: "1lSO2JnmA2wYZ439h2C_UWGXIfaHkF4x_",
-          title: "Mini hydraulic press machine",
+          href: "6",
         },
       ],
     },
@@ -239,18 +254,22 @@ export const categoriesVideo = {
         {
           url: "1_4yoQXCv0NTLcb2qstq_PUz5I02dsxHu",
           title: "Project on cold chamber die casting machine",
+          href: "5",
         },
         {
           url: "1lH5_1kIUftS4sRPg4vcJ-xvmU6Vw_UdG",
           title: "CNC pneumatic auto feed punching machine",
+          href: "6",
         },
         {
           url: "1KGyzf26Q4-CqfOcDVKrW0vkeiGScjexL",
           title: "Sliding ram by using quick return mechanism",
+          href: "6",
         },
         {
           url: "1lSO2JnmA2wYZ439h2C_UWGXIfaHkF4x_",
           title: "Mini hydraulic press machine",
+          href: "6",
         },
       ],
     },

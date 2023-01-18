@@ -36,13 +36,13 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/" className="logo-img">
-          <img src={logo} className={"w-full"} alt="Logo" />
+          <img src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto flex items-center">
             <Nav.Link
               href="#home"
               className={
@@ -78,9 +78,9 @@ export const NavBar = () => {
               onClick={() => onUpdateActiveLink("projects")}
             >
               Gallery
-            </Nav.Link>
+            </Nav.Link>{" "}
           </Nav>
-          <span className="navbar-text">
+          {/* <span className="navbar-text">
             <MDBCol md="6">
               <form className="form-inline mt-4 mb-4">
                 <MDBIcon icon="search" />
@@ -93,6 +93,7 @@ export const NavBar = () => {
               </form>
             </MDBCol>
           </span>
+           */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

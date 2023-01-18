@@ -80,7 +80,6 @@ select:focus {
 
 @media (min-width: 1700px) {
   main .container {
-    max-width: 100%;
     padding: 0 150px;
   }
 }
@@ -94,14 +93,8 @@ p.danger {
 }
 /************ Navbar Css ************/
 
-.logo-img img {
-  width: 230% !important;
-  padding: 20px;
-  background-color: #fdfdfd76;
-  border-radius: 0.3em;
-}
 nav.navbar {
-  padding: 18px 0;
+  padding: 16px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -112,9 +105,7 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
-nav.navbar a.navbar-brand {
-  width: 9%;
-}
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -308,6 +299,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img {
   animation: updown 3s linear infinite;
   margin-top: -100px;
+  width: 400px;
+  margin-left: 20px;
 }
 @keyframes updown {
   0% {
@@ -659,4 +652,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .form-control {
   width: 200%;
+}
+.logo-img img {
+  padding: 20px;
+
+  height: 90px;
+  background-color: #fdfdfd76;
+  border-radius: 0.3em;
 }
