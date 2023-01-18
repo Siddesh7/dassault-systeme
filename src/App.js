@@ -10,8 +10,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/category/:category" element={<Category />} />
-
-        <Route path="/:id" element={<VideoPage />} />
+        <Route path="/category/:category/:id" element={<VideoPage />} />
       </Routes>
     </BrowserRouter>
   );
