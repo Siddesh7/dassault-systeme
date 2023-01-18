@@ -36,11 +36,7 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Experiments</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
-              </p>
+
               <Carousel
                 responsive={responsive}
                 infinite={true}
@@ -53,18 +49,20 @@ export const Skills = () => {
                     <h5>Mechanical</h5>
                   </div>
                 </Link>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>physics</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>physics</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>physics</h5>
-                </div>
+                <Link to="/category/phy">
+                  {" "}
+                  <div className="item">
+                    <img src={meter1} alt="Image" />
+                    <h5>Physics</h5>
+                  </div>
+                </Link>
+                <Link to="/category/maths">
+                  {" "}
+                  <div className="item">
+                    <img src={meter1} alt="Image" />
+                    <h5>Maths</h5>
+                  </div>
+                </Link>
               </Carousel>
             </div>
           </div>

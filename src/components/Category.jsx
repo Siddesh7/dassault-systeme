@@ -14,7 +14,7 @@ export default function Category() {
         />
         <h2
           class="font-bold leading-tight text-5xl mt-0 mb-2 bg-gradient-to-r bg-clip-text  text-transparent 
-            from-gray-600 via-gray-500 via-gray-400 to-gray-600
+            from-white via-purple-500  to-white
             animate-text"
         >
           {titles[category]}

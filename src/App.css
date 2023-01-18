@@ -95,7 +95,7 @@ p.danger {
 /************ Navbar Css ************/
 
 .logo-img img {
-  width: 230%;
+  width: 230% !important;
   padding: 20px;
   background-color: #fdfdfd76;
   border-radius: 0.3em;
@@ -655,4 +655,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer .link-list li a {
   text-decoration: none;
   color: #fff;
+}
+
+.form-control {
+  width: 200%;
 }
