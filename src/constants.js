@@ -125,48 +125,132 @@ export const titles = { mech: "Mechanical", phy: "Physics" };
 export const categoriesVideo = {
   mech: [
     {
-      embedID: "OlhBL5_-nx4",
-      title: "Some title",
+      embedID: "b6SUbAkIAzY",
+      thumbnail: "1jL_gv1bWcIlyH9UEljStaJqCuPtHqJ1G",
+      href: "0",
+      title: "Pneumatic reciprocating water pumping system",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores earum quaerat, temporibus suscipit libero distinctio sequi consequatur quibusdam possimus repellendus excepturi atque ad? Dolore asperiores tempore aut dicta blanditiis.",
+        "Pneumatic resiprocating water pumping system is used to pump the water from one place to another place using Pneumatic operated cylinder",
       suggested: [
         {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+          url: "1RsgucUrkvUK4Q1gGAyHVzISB-9SHAwqV",
+          title: "High pressure pneumatic machine vice",
         },
         {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+          url: "1IFqx0XdctEHDpbMXN7BzLbCv6j2G1rwM",
+          title: "Pneumatic solenoid operated grinding machine",
         },
         {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+          url: "1nMsBDFF4u_Pu5IWuhEvSgY_AVdBw0Zdb",
+          title:
+            "Auto indexing gear cutting attachment for pneumatic shaping machine",
         },
         {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
-        },
-        {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+          url: "1_KO2Zu7ZwC1R9RFhLiJ0gFWFH0t6mxzt",
+          title: "Hydraulic pipe bending machine mechanical project",
         },
       ],
     },
     {
-      embedID: "OlhBL5_-nx4",
-      title: "Some title",
+      embedID: "vSzC-1zdD0w",
+      thumbnail: "1RsgucUrkvUK4Q1gGAyHVzISB-9SHAwqV",
+      href: "1",
+      title: "High pressure pneumatic machine vice",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores earum quaerat, temporibus suscipit libero distinctio sequi consequatur quibusdam possimus repellendus excepturi atque ad? Dolore asperiores tempore aut dicta blanditiis.",
+        "High pressure pneumatic machine vice is used to hold the workpiece and it is operated  using pneumatic cylinder",
       suggested: [
         {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+          url: "1IFqx0XdctEHDpbMXN7BzLbCv6j2G1rwM",
+          title: "Pneumatic solenoid operated grinding machine",
         },
         {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+          url: "1nMsBDFF4u_Pu5IWuhEvSgY_AVdBw0Zdb",
+          title:
+            "Auto indexing gear cutting attachment for pneumatic shaping machine",
         },
         {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+          url: "1_KO2Zu7ZwC1R9RFhLiJ0gFWFH0t6mxzt",
+          title: "Hydraulic pipe bending machine mechanical project",
         },
         {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+          url: "1_4yoQXCv0NTLcb2qstq_PUz5I02dsxHu",
+          title: "Project on cold chamber die casting machine",
+        },
+      ],
+    },
+    {
+      embedID: "cCBomZPgnmM",
+      thumbnail: "1IFqx0XdctEHDpbMXN7BzLbCv6j2G1rwM",
+      href: "2",
+      title: "Pneumatic solenoid operated grinding machine",
+      description:
+        "The pneumatic grinding is a metal grinding machine tool designed to grind metal by applying pneumatic pressure",
+      suggested: [
+        {
+          url: "1nMsBDFF4u_Pu5IWuhEvSgY_AVdBw0Zdb",
+          title:
+            "Auto indexing gear cutting attachment for pneumatic shaping machine",
         },
         {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+          url: "1_KO2Zu7ZwC1R9RFhLiJ0gFWFH0t6mxzt",
+          title: "Hydraulic pipe bending machine mechanical project",
+        },
+        {
+          url: "1_4yoQXCv0NTLcb2qstq_PUz5I02dsxHu",
+          title: "Project on cold chamber die casting machine",
+        },
+        {
+          url: "1lH5_1kIUftS4sRPg4vcJ-xvmU6Vw_UdG",
+          title: "CNC pneumatic auto feed punching machine",
+        },
+      ],
+    },
+    {
+      embedID: "Wg2LwKT16EU",
+      thumbnail: "1nMsBDFF4u_Pu5IWuhEvSgY_AVdBw0Zdb",
+      href: "3",
+      title:
+        "Auto indexing gear cutting attachment for pneumatic shaping machine",
+      description:
+        "This project intends to use pneumatic shaper for high production of automatic gear cutting with auto indexing work piece",
+      suggested: [
+        {
+          url: "1_4yoQXCv0NTLcb2qstq_PUz5I02dsxHu",
+          title: "Project on cold chamber die casting machine",
+        },
+        {
+          url: "1lH5_1kIUftS4sRPg4vcJ-xvmU6Vw_UdG",
+          title: "CNC pneumatic auto feed punching machine",
+        },
+        {
+          url: "1lSO2JnmA2wYZ439h2C_UWGXIfaHkF4x_",
+          title: "Mini hydraulic press machine",
+        },
+      ],
+    },
+    {
+      embedID: "6PqGQWMQUKA",
+      thumbnail: "1_KO2Zu7ZwC1R9RFhLiJ0gFWFH0t6mxzt",
+      href: "4",
+      title: "Hydraulic pipe bending machine mechanical project",
+      description:
+        "Hydraulic pipe benders are mechanisms that use hydraulic pressure to bend various sizes of metal pipe and electrical conduit to specific angles",
+      suggested: [
+        {
+          url: "1_4yoQXCv0NTLcb2qstq_PUz5I02dsxHu",
+          title: "Project on cold chamber die casting machine",
+        },
+        {
+          url: "1lH5_1kIUftS4sRPg4vcJ-xvmU6Vw_UdG",
+          title: "CNC pneumatic auto feed punching machine",
+        },
+        {
+          url: "1KGyzf26Q4-CqfOcDVKrW0vkeiGScjexL",
+          title: "Sliding ram by using quick return mechanism",
+        },
+        {
+          url: "1lSO2JnmA2wYZ439h2C_UWGXIfaHkF4x_",
+          title: "Mini hydraulic press machine",
         },
       ],
     },
@@ -174,29 +258,9 @@ export const categoriesVideo = {
   phy: [
     {
       embedID: "OlhBL5_-nx4",
-      title: "Some title",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores earum quaerat, temporibus suscipit libero distinctio sequi consequatur quibusdam possimus repellendus excepturi atque ad? Dolore asperiores tempore aut dicta blanditiis.",
-      suggested: [
-        {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
-        },
-        {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
-        },
-        {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
-        },
-        {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
-        },
-        {
-          url: "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
-        },
-      ],
-    },
-    {
-      embedID: "OlhBL5_-nx4",
+      thumbnail:
+        "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp",
+      href: "0",
       title: "Some title",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores earum quaerat, temporibus suscipit libero distinctio sequi consequatur quibusdam possimus repellendus excepturi atque ad? Dolore asperiores tempore aut dicta blanditiis.",
