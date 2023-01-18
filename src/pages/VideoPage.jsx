@@ -4,10 +4,9 @@ import { useParams } from "react-router-dom";
 import { videos } from "../constants";
 export default function VideoPage() {
   const { id } = useParams();
-  console.log(id);
-  console.log(videos[id].SuggestedVideos);
+
   return (
-    <div className="w-[85%] mt-[30px] m-auto flex flex-col md:flex-row  justify-between">
+    <div className="w-[85%] mx-auto mt-[130px] flex flex-col md:flex-row  justify-between">
       <div className="w-full md:w-[75%]">
         <YoutubeEmbed embedId={videos[id].embedID} title={videos[id].title} />
         <div className="mt-[20px]">

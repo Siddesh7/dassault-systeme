@@ -4,7 +4,7 @@ export default function Category() {
   const { category } = useParams();
   const host = `http://${window.location.host}`;
   return (
-    <div className="container my-[36px] px-6 mx-auto">
+    <div className="container mt-[120px] mb-[36px] px-6 mx-auto">
       <section className="mb-32 text-gray-800">
         <style
           dangerouslySetInnerHTML={{
