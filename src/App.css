@@ -660,3 +660,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: #fdfdfd76;
   border-radius: 0.3em;
 }
+
+div .item img{
+  width: 400px;
+ 
+
+}

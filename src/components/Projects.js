@@ -42,9 +42,10 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
+                  <p>VR can be used to create virtual models of buildings and other structures, allowing architects and designers to visualize their projects and make changes before construction begins.</p>
 
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Mostly viewed</Nav.Link>
                     </Nav.Item>
@@ -54,7 +55,7 @@ export const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="third">More ....</Nav.Link>
                     </Nav.Item>
-                  </Nav> */}
+                  </Nav> 
                     <Tab.Content
                       id="slideInUp"
                       className={

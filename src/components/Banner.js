@@ -75,16 +75,10 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Virtual reality is a modern technology enabling the
-                    three-dimensional, computer-generated environment that users
-                    may explore and interact with. In this way, simulated
-                    environments come alive and can be perceived by the human
-                    senses (mostly by, hearing and eyesight). Virtual Reality
-                    enriches the user experience and gives them a special
-                    ‘near-life’ feel. Entering the gaming industry as a user
-                    experience enhancement technology, VR has quickly spread to
-                    other sectors due to its ability to deliver rich
-                    experiential learning.
+                  Using VR in education allows students to experience and engage with the material 
+                  in a way that is not possible through traditional methods, which can make the learning 
+                  process more interactive and memorable.Providing simulations for hands-on learning in subjects such as science, 
+                  technology, engineering, and mathematics (STEM).
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Explore

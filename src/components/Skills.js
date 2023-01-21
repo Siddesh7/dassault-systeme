@@ -1,6 +1,6 @@
-import meter1 from "../assets/img/physics-logo.png";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/mech-n.png";
+import meter2 from "../assets/img/physics-logo.png";
+import meter3 from "../assets/img/match.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
@@ -36,6 +36,9 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Experiments</h2>
+              <p>
+               Experiments created using virtual reality (VR) technology.
+              </p>
 
               <Carousel
                 responsive={responsive}
@@ -52,14 +55,14 @@ export const Skills = () => {
                 <Link to="/category/phy">
                   {" "}
                   <div className="item">
-                    <img src={meter1} alt="Image" />
+                    <img src={meter2} alt="Image" />
                     <h5>Physics</h5>
                   </div>
                 </Link>
                 <Link to="/category/maths">
                   {" "}
                   <div className="item">
-                    <img src={meter1} alt="Image" />
+                    <img src={meter3} alt="Image" />
                     <h5>Maths</h5>
                   </div>
                 </Link>
