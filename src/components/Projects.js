@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import { Link } from "react-router-dom";
 
 export const Projects = () => {
   const projects = [
@@ -14,18 +15,21 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl:
         "http://drive.google.com/uc?export=view&id=1lSO2JnmA2wYZ439h2C_UWGXIfaHkF4x_",
+        link:"/category/mech/8"
     },
     {
       title: "Physics",
       description: "Design & Development",
       imgUrl:
         "http://drive.google.com/uc?export=view&id=1Iib4aYk5dI6eUKpMTxS8YfrJsFcW_Rkg",
+        link:"/category/phy/0"
     },
     {
       title: "Maths",
       description: "Design & Development",
       imgUrl:
         "http://drive.google.com/uc?export=view&id=13CaGHjhj_GKws7MA6LSuiCmT53Su9GPE",
+        link:"/category/math/0"
     },
   ];
 
@@ -52,8 +56,9 @@ export const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="second">Recently viewed</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">More ....</Nav.Link>
+                    <Nav.Item >
+                      
+                    <Nav.Link href="./Category" eventKey="third">More videos ....</Nav.Link>
                     </Nav.Item>
                   </Nav> 
                     <Tab.Content
@@ -77,11 +82,8 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
-                        </Row>
+                      
+                       
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

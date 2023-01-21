@@ -80,7 +80,7 @@ export const Banner = () => {
                   process more interactive and memorable.Providing simulations for hands-on learning in subjects such as science, 
                   technology, engineering, and mathematics (STEM).
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button   >
                     Explore
                     <ArrowRightCircle size={25} />
                   </button>

@@ -20,13 +20,13 @@ export const Footer = () => {
                 <a href="#!">Home</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">About</a>
+                <a href="https://www.skct.edu.in/#/dassault">About</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Experiments</a>
+                <a href="/category">Experiments</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Gallery</a>
+                <a href="#skills">Gallery</a>
               </li>
             </ul>
           </Col>

@@ -53,7 +53,7 @@ export const NavBar = () => {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#skills"
+              href="https://www.skct.edu.in/#/dassault"
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
@@ -62,7 +62,7 @@ export const NavBar = () => {
               About
             </Nav.Link>
             <Nav.Link
-              href="#projects"
+              href="/category"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
@@ -71,7 +71,7 @@ export const NavBar = () => {
               Experiments
             </Nav.Link>
             <Nav.Link
-              href="#projects"
+              href="#skills"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }

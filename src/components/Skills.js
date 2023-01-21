@@ -59,7 +59,7 @@ export const Skills = () => {
                     <h5>Physics</h5>
                   </div>
                 </Link>
-                <Link to="/category/maths">
+                <Link to="/category/math">
                   {" "}
                   <div className="item">
                     <img src={meter3} alt="Image" />
