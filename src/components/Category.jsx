@@ -39,8 +39,8 @@ export default function Category() {
                     className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                     style={{ backgroundColor: "rgba(0, 0, 0, 0.3)" }}
                   >
-                    <div className="flex justify-start items-end h-full">
-                      <h5 className="text-lg font-bold text-white m-6">
+                    <div className="flex justify-start absolute bottom-[0px] items-end bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-60 ">
+                      <h5 className="text-xl font-bold text-black mx-6 my-[10px] ">
                         {video.title}
                       </h5>
                     </div>
