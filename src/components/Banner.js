@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["To experience", "To 3D experiments", "To virtual reality"];
+  const toRotate = ["to experience", "to 3D experiments", "to virtual reality"];
   const period = 2000;
 
   useEffect(() => {
@@ -65,7 +65,7 @@ export const Banner = () => {
                 >
                   {/* <span className="tagline">Welcome to my Portfolio</span> */}
                   <h1>
-                    {`Welcome ,`}{" "}
+                    {`Welcome,`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="500"
@@ -75,15 +75,17 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                  Using VR in education allows students to experience and engage with the material 
-                  in a way that is not possible through traditional methods, which can make the learning 
-                  process more interactive and memorable.Providing simulations for hands-on learning in subjects such as science, 
-                  technology, engineering, and mathematics (STEM).
+                    Using VR in education allows students to experience and
+                    engage with the material in a way that is not possible
+                    through traditional methods, which can make the learning
+                    process more interactive and memorable.Providing simulations
+                    for hands-on learning in subjects such as science,
+                    technology, engineering, and mathematics (STEM).
                   </p>
-                  <button   >
+                  {/* <button>
                     Explore
                     <ArrowRightCircle size={25} />
-                  </button>
+                  </button> */}
                 </div>
               )}
             </TrackVisibility>
