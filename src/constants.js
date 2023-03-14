@@ -160,7 +160,7 @@ export const categoriesVideo = {
       ],
     },
     {
-      embedID: "vSzC-1zdD0w",
+      embedID: "lkVO8Fgxa-4",
       thumbnail: "1RsgucUrkvUK4Q1gGAyHVzISB-9SHAwqV",
       href: "1",
       title: "High pressure pneumatic machine vice",
@@ -192,7 +192,7 @@ export const categoriesVideo = {
     },
 
     {
-      embedID: "cCBomZPgnmM",
+      embedID: "9w5qTaH9idk",
       thumbnail: "1IFqx0XdctEHDpbMXN7BzLbCv6j2G1rwM",
       href: "2",
       title: "Pneumatic solenoid operated grinding machine",
@@ -223,7 +223,7 @@ export const categoriesVideo = {
       ],
     },
     {
-      embedID: "Wg2LwKT16EU",
+      embedID: "0hTukInpjWc",
       thumbnail: "1nMsBDFF4u_Pu5IWuhEvSgY_AVdBw0Zdb",
       href: "3",
       title:
@@ -254,7 +254,7 @@ export const categoriesVideo = {
       ],
     },
     {
-      embedID: "6PqGQWMQUKA",
+      embedID: "ldIYnO_OW9A",
       thumbnail: "1_KO2Zu7ZwC1R9RFhLiJ0gFWFH0t6mxzt",
       href: "4",
       title: "Hydraulic pipe bending machine mechanical project",
@@ -284,7 +284,7 @@ export const categoriesVideo = {
       ],
     },
     {
-      embedID: "g_tRXmYhZb0",
+      embedID: "DCUpm4NX7Ow",
       thumbnail: "1_4yoQXCv0NTLcb2qstq_PUz5I02dsxHu",
       href: "5",
       title: "Project on cold chamber die casting machine",
@@ -314,7 +314,7 @@ export const categoriesVideo = {
       ],
     },
     {
-      embedID: "TupK6tph5FI",
+      embedID: "nlVFBMwNxvk",
       thumbnail: "1lH5_1kIUftS4sRPg4vcJ-xvmU6Vw_UdG",
       href: "6",
       title: "CNC pneumatic auto feed punching machine",
@@ -344,7 +344,7 @@ export const categoriesVideo = {
       ],
     },
     {
-      embedID: "HbEgCl9JyKU",
+      embedID: "VPN8RKr70pM",
       thumbnail: "1KGyzf26Q4-CqfOcDVKrW0vkeiGScjexL",
       href: "7",
       title: "Sliding ram by using quick return mechanism",
