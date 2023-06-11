@@ -12,7 +12,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = ["to experience", "to 3D experiments", "to virtual reality"];
-  const period = 2000;
+  const period = 100;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -69,7 +69,7 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="500"
-                      data-rotate='[ "To experience", " TO 3D experiments", " To virtual reality" ]'
+                      data-rotate='[ "to the VR world!", " to experiment Science in VR" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>

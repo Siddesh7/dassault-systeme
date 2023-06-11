@@ -58,7 +58,7 @@ ul {
   text-decoration: none;
 }
 
-a{
+a {
   text-decoration: none !important;
   color: white !important;
 }
@@ -245,7 +245,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url("./assets/img/arvr.jpg");
+  background-image: url("./assets/img/banner-bg.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -388,7 +388,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
-.project .nav.nav-pills  .nav-link  {
+.project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -622,7 +622,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 0;
   padding: 0 15px;
 }
- .buttons {
+.buttons {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
   padding: 20px 65px;
   margin-top: 20px;
@@ -663,8 +663,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0.3em;
 }
 
-div .item img{
+div .item img {
   width: 400px;
- 
-
 }
