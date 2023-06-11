@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { categories, titles, categoriesVideo } from "../constants";
+import { titles, categoriesVideo } from "../constants";
 export default function Category() {
   const { category } = useParams();
   console.log(categoriesVideo[category]);
@@ -21,8 +21,17 @@ export default function Category() {
         </h2>
         <div className="grid lg:grid-cols-3 gap-6 mt-[20px]">
           {categoriesVideo[category].map((video) => (
-            <Link to={video.href}>
-              {" "}
+            <Link
+              to={
+                video.href.startsWith("mech/")
+                  ? video.href.substring(5)
+                  : video.href.startsWith("phy/")
+                  ? video.href.substring(4)
+                  : video.href.startsWith("math/")
+                  ? video.href.substring(5)
+                  : video.href
+              }
+            >
               <div
                 className="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
                 style={{ backgroundPosition: "50%" }}
@@ -34,7 +43,17 @@ export default function Category() {
                   className="w-full h-[300px] transition duration-300 ease-linear align-middle"
                   alt={""}
                 />
-                <a href={video.href}>
+                <a
+                  href={
+                    video.href.startsWith("mech/")
+                      ? video.href.substring(5)
+                      : video.href.startsWith("phy/")
+                      ? video.href.substring(4)
+                      : video.href.startsWith("math/")
+                      ? video.href.substring(5)
+                      : video.href
+                  }
+                >
                   <div
                     className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                     style={{ backgroundColor: "rgba(0, 0, 0, 0.3)" }}
