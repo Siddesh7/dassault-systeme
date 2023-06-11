@@ -13,9 +13,8 @@ export const Footer = () => {
           <Col size={12} sm={6} md={4}>
             <img src={logo} alt="Logo" />
           </Col>
-          <Col size={12} sm={6} md={4} className="link-list">
-            <h5 className="title">Links</h5>
-            <ul>
+          <Col size={12} sm={6} md={4} className="">
+            <ul className="flex flex-row gap-4 ">
               <li className="list-unstyled">
                 <a href="#!">Home</a>
               </li>
@@ -26,7 +25,9 @@ export const Footer = () => {
                 <a href="/category">Experiments</a>
               </li>
               <li className="list-unstyled">
-                <a href="#skills">Gallery</a>
+                <a href="https://la-fondation-dassault-systemes.vercel.app/#skills">
+                  Gallery
+                </a>
               </li>
             </ul>
           </Col>

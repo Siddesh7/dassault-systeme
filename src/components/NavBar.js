@@ -34,7 +34,7 @@ export const NavBar = () => {
 
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-      <Container >
+      <Container>
         <Navbar.Brand href="/" className="logo-img">
           <img src={logo} alt="Logo" />
         </Navbar.Brand>
@@ -44,7 +44,7 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto flex items-center">
             <Nav.Link
-              href="/home"
+              href="/"
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
@@ -71,7 +71,7 @@ export const NavBar = () => {
               Experiments
             </Nav.Link>
             <Nav.Link
-              href="#skills"
+              href="https://la-fondation-dassault-systemes.vercel.app/#skills"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }

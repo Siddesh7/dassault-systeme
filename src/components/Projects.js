@@ -15,21 +15,21 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl:
         "http://drive.google.com/uc?export=view&id=1lSO2JnmA2wYZ439h2C_UWGXIfaHkF4x_",
-        link:"/category/mech/8"
+      link: "/category/mech/8",
     },
     {
       title: "Physics",
       description: "Design & Development",
       imgUrl:
-        "http://drive.google.com/uc?export=view&id=1Iib4aYk5dI6eUKpMTxS8YfrJsFcW_Rkg",
-        link:"/category/phy/0"
+        "http://drive.google.com/uc?export=view&id=1_9ifQpsl-vAK4ju7PW9eVlcVC9LBFTMP",
+      link: "/category/phy/5",
     },
     {
       title: "Maths",
       description: "Design & Development",
       imgUrl:
         "http://drive.google.com/uc?export=view&id=13CaGHjhj_GKws7MA6LSuiCmT53Su9GPE",
-        link:"/category/math/0"
+      link: "/category/math/0",
     },
   ];
 
@@ -46,21 +46,14 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>VR can be used to create virtual models of buildings and other structures, allowing architects and designers to visualize their projects and make changes before construction begins.</p>
+                  <p>
+                    VR can be used to create virtual models of buildings and
+                    other structures, allowing architects and designers to
+                    visualize their projects and make changes before
+                    construction begins.
+                  </p>
 
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Mostly viewed</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Recently viewed</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item >
-                      
-                    <Nav.Link href="./Category" eventKey="third">More videos ....</Nav.Link>
-                    </Nav.Item>
-                  </Nav> 
                     <Tab.Content
                       id="slideInUp"
                       className={
@@ -81,10 +74,7 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                      
-                       
-                      </Tab.Pane>
+                      <Tab.Pane eventKey="third"></Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
                 </div>
