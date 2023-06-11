@@ -241,8 +241,8 @@ export const categoriesVideo = {
   math: [
     {
       embedID: "f8tujrLG4Sw",
-      thumbnail: "1Iib4aYk5dI6eUKpMTxS8YfrJsFcW_Rkg",
-      href: "0",
+      thumbnail: "1xchaC78q4Zmy7wL9ogZp7MqctplAdtbU",
+      href: "math/0",
       title: "Trigonometry in day to day life",
       description: "Trigonometry - measuring height of a building",
     },

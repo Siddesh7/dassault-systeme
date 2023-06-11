@@ -44,7 +44,11 @@ export default function VideoPage() {
           </div>
         </div>
       </div>
-      {<SuggestedVideos videoList={suggestedVideo} />}
+      {category == "math" ? (
+        <SuggestedVideos videoList={[]} />
+      ) : (
+        <SuggestedVideos videoList={suggestedVideo} />
+      )}
     </div>
   );
 }
